@@ -1,4 +1,4 @@
-FROM kong:latest
+FROM pantsel/konga:latest
 
 COPY docker-entrypoint.sh /tmp
 
